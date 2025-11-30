@@ -19,7 +19,7 @@ Features
 
 You can download the latest release here:
 
-➡️ **[Download APK](./releases)**
+**[Download APK](./releases)**
 https://github.com/Herogo3241/VisionScore/releases/tag/v0.1.0
 
 
@@ -56,7 +56,7 @@ adb install build/app/outputs/flutter-apk/app-release.apk
 
 
 
-## 🧠 Tech Stack
+## Tech Stack
 
 * **Flutter** (UI + platform integration)
 * **TensorFlow Lite**
@@ -66,7 +66,7 @@ adb install build/app/outputs/flutter-apk/app-release.apk
 
 
 
-## 📸 Screenshots
+##  Screenshots
 
 ### HomeScreen
 ![Home Screen](Screenshots/home.jpeg)
@@ -80,7 +80,7 @@ adb install build/app/outputs/flutter-apk/app-release.apk
 ### Settings and benchmark
 ![Home Screen](Screenshots/settings&benchmark.jpeg)
 
-## 🛠 How It Works (Short Summary)
+## How It Works (Short Summary)
 
 1. **TFLite model** extracts a 64-dimensional visual embedding
 2. A second MLP converts embedding → music parameters:
