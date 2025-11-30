@@ -1,0 +1,24 @@
+cmake_minimum_required(VERSION 3.14)
+
+project(audio_engine)
+
+add_library(
+    audio_engine
+    SHARED
+    audio_engine.cpp
+    aaudio_engine.cpp
+    native_bridge.cpp
+)
+
+
+
+find_library(log-lib     log)
+find_library(android-lib android)
+find_library(aaudio-lib  aaudio)
+
+target_link_libraries(
+    audio_engine
+    ${log-lib}
+    ${android-lib}
+    ${aaudio-lib}   
+)
